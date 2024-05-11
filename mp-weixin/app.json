@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/huishouyuan/list",
+    "pages/huishouyuan/add-or-update",
+    "pages/huishouyuan/detail",
+    "pages/feipinleixing/list",
+    "pages/feipinleixing/add-or-update",
+    "pages/feipinleixing/detail",
+    "pages/feipinhuishou/list",
+    "pages/feipinhuishou/add-or-update",
+    "pages/feipinhuishou/detail",
+    "pages/feipindingdan/list",
+    "pages/feipindingdan/add-or-update",
+    "pages/feipindingdan/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussfeipinhuishou/list",
+    "pages/discussfeipinhuishou/add-or-update",
+    "pages/discussfeipinhuishou/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信小程序的社区垃圾回收管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#82A39D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
